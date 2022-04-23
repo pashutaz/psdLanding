@@ -1,8 +1,9 @@
-.container{
+.container {
     text-align: center;
     width: 940px;
     margin: 0 auto;
 }
+
 #header {
     position: absolute;
     top: 20px;
@@ -20,18 +21,22 @@
     float: right;
     padding-top: 5px;
 }
+
 .nav li {
 
     float: left;
     margin-right: 40px;
 }
-.nav a:hover{
+
+.nav a:hover {
     color: #fed136;
 }
-.nav li:last-child{
+
+.nav li:last-child {
     margin-right: 0;
 }
-.nav a{
+
+.nav a {
     text-transform: uppercase;
     font: 14px Arrial, sans-sarif;
     color: #ffffff;
@@ -40,16 +45,15 @@
 
 #home {
     height: 700px;
-    width: 1400px;
-    padding-top:278px;
+    padding-top: 278px;
     text-align: center;
     color: #ffffff;
-    background: #222 url(images/Background-Image.png) no-repeat center bottom ;
+    background: #222 url(images/Background-Image.png) no-repeat center bottom;
     background-size: cover;
 }
 
 #home h3 {
- font: 400 40px Arial,sans-sarif;
+    font: 400 40px Arial, sans-sarif;
     margin-bottom: 40px;
 
 }
@@ -70,13 +74,14 @@
     cursor: pointer;
     border-radius: 4px;
 }
-.btn:hover{
+
+.btn:hover {
     background: #daae17;
     color: #fff;
 }
 
-.box{
-    padding:120px 0;
+.box {
+    padding: 120px 0;
 
 }
 
@@ -86,16 +91,17 @@
 }
 
 h2.title {
-    font: 700 40px / 75px Arial,sans-serif;
+    font: 700 40px / 75px Arial, sans-serif;
     color: #222222;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.item-footer h5.title{
-margin-bottom: 4px;
+
+.item-footer h5.title {
+    margin-bottom: 4px;
 }
 
-h5.title{
+h5.title {
     margin-bottom: 10px;
     color: #333333;
     font: 700 18px Arial;
@@ -110,7 +116,7 @@ h5.title{
 }
 
 .services-item p {
-font-size: 18px;
+    font-size: 18px;
     line-height: 24px;
     color: #777777;
 
@@ -119,7 +125,7 @@ font-size: 18px;
 .services-item {
     float: left;
     width: 33.33%;
-    padding-top: 90px ;
+    padding-top: 90px;
 }
 
 .commerse {
@@ -135,18 +141,19 @@ font-size: 18px;
 }
 
 .services-wrap,
-.portfolio-wrap{
-      padding-top: 70px;
+.portfolio-wrap {
+    padding-top: 70px;
 }
+
 .services-wrap:after {
 
-  clear: both;
-  display: block;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
-  content: ".";
-  font-size: 0;
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: ".";
+    font-size: 0;
 
 }
 
@@ -157,18 +164,19 @@ font-size: 18px;
 
 }
 
-.portfolio-wrap{
+.portfolio-wrap {
     padding-top: 70px;
 }
+
 .portfolio-wrap:after {
 
-  clear: both;
-  display: block;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
-  content: ".";
-  font-size: 0;
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: ".";
+    font-size: 0;
 
 }
 
@@ -178,14 +186,16 @@ font-size: 18px;
     margin-right: 3.5%;
     background-color: #ffffff;
     float: left;
-/*    padding-bottom: 30px;*/
+    /*    padding-bottom: 30px;*/
 }
-.portfolio-item:nth-child(3n){
+
+.portfolio-item:nth-child(3n) {
     margin-right: 0;
 }
+
 .portfolio-item:nth-last-child(1),
 .portfolio-item:nth-last-child(2),
-.portfolio-item:nth-last-child(3){
+.portfolio-item:nth-last-child(3) {
     margin-bottom: 0;
 }
 
@@ -195,7 +205,7 @@ font-size: 18px;
 }
 
 .item-footer {
-    padding: 25px 20px  ;
+    padding: 25px 20px;
 }
 
 #about {
@@ -215,19 +225,24 @@ font-size: 18px;
     width: 30%;
 
 }
-.left{
+
+.left {
     float: left;
 }
-.right{
-  float: right;
+
+.right {
+    float: right;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.text-upper{
+
+.text-upper {
     text-transform: uppercase;
 }
 
@@ -237,22 +252,24 @@ font-size: 18px;
     line-height: 24px;
 }
 
-.about-text p{
+.about-text p {
     color: #777777;
     font: 400 16px 'Times New Roman';
     line-height: 24px;
 }
 
-.about-img img{
+.about-img img {
     display: inline-block;
     width: 169px;
     height: 169px;
     border-radius: 50%;
 }
-.title span{
+
+.title span {
     text-transform: uppercase;
 }
-.about-img:after{
+
+.about-img:after {
     content: "";
     display: block;
     height: 94px;
@@ -264,14 +281,14 @@ font-size: 18px;
 
 
 .about-link {
-background: url(images/about-image-begins.png);
+    background: url(images/about-image-begins.png);
 
 }
 
 #team {
     text-align: center;
 
-/*    background-color: #f9f9f9;*/
+    /*    background-color: #f9f9f9;*/
 }
 
 h2.title {
@@ -284,12 +301,12 @@ h2.title {
 
 }
 
-.social a{
+.social a {
     display: inline-block;
     width: 41px;
     height: 41px;
     border-radius: 50%;
-    margin:0 3px;
+    margin: 0 3px;
 }
 
 .social {
@@ -304,7 +321,7 @@ h2.title {
 }
 
 .ic-tw {
-background: url(images/Twitter.png) no-repeat;
+    background: url(images/Twitter.png) no-repeat;
 }
 
 .ic-fb {
@@ -321,35 +338,39 @@ background: url(images/Twitter.png) no-repeat;
 
 }
 
-.ic-gl:hover,.ic-gl-black:hover {
+.ic-gl:hover,
+.ic-gl-black:hover {
     background: url(images/googleColor.png);
 
 }
 
-.ic-fb:hover,.ic-fb-black:hover {
+.ic-fb:hover,
+.ic-fb-black:hover {
     background: url(images/facebookColor.png);
 
 }
 
-.ic-tw:hover,.ic-tw-black:hover {
+.ic-tw:hover,
+.ic-tw-black:hover {
     background: url(images/twitterColor.png);
 
 }
 
-.ic-pn:hover,.ic-pn-black:hover {
+.ic-pn:hover,
+.ic-pn-black:hover {
     background: url(images/pintestColor.png);
 
 }
 
 .team-wrap {
-margin-top: 83px;
+    margin-top: 83px;
 
 }
 
 .brand {
 
     background-color: #f9f9f9;
-    padding: 60px 0 ;
+    padding: 60px 0;
 }
 
 #brand {
@@ -382,14 +403,15 @@ margin-top: 83px;
 #contact h2.title {
     color: #ffffff;
 }
+
 #message .left,
-#message .right{
+#message .right {
     width: 455px;
 
 }
 
 #message input[type="text"],
-#message textarea{
+#message textarea {
     width: 100%;
     padding: 15px 20px;
     margin-bottom: 30px;
@@ -400,23 +422,25 @@ margin-top: 83px;
     border-radius: 4px;
 }
 
-#message input[type="text"]{
+#message input[type="text"] {
     height: 50px;
     border: 1px solid #ccc;
 
 }
-#message textarea{
+
+#message textarea {
     height: 210px;
     border: none;
     resize: none;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
     text-transform: uppercase;
     color: #bbbbbb;
     font: 700 14px Arial;
 
 }
+
 #copyright {
     color: #555555;
     font: 400 14px / 22px Arial;
