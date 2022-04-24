@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     text-align: center;
     width: 940px;
@@ -85,9 +89,8 @@
 
 }
 
-#servises {
+#services {
     text-align: center;
-
 }
 
 h2.title {
