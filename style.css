@@ -317,7 +317,12 @@ h2.title {
     float: left;
     width: 33.33%;
     margin-bottom: 51px;
+}
 
+.team-item img {
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
 }
 
 .ic-tw {
